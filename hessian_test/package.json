@@ -1,0 +1,15 @@
+{
+  "name": "hessian_test",
+  "version": "1.0.0",
+  "description": "this is a test for hessian encode and decode ",
+  "main": "hessian_test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HackerZ",
+  "license": "ISC",
+  "dependencies": {
+    "hessian-proxy": "0.0.5",
+    "long": "^3.2.0"
+  }
+}
