@@ -1,6 +1,13 @@
 var Hessian = require('hessian-proxy');
 Long = require('long');
 
+var str = 'test';
+writeStr = new Hessian.Writer2()
+var buffer = writeStr.write(str);
+
+console.log(typeof str);
+console.log('str => ', buffer.getBuffer().toString())
+
 // STRING OBJECT
 var stringObject = {
     color: 'red', 
